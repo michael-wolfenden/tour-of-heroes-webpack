@@ -22,6 +22,7 @@ var configuration = {
 
     vendorsToBundleSeperately: [
         'reflect-metadata',
+        'zone.js',
         'angular2/angular2'
     ],
 
