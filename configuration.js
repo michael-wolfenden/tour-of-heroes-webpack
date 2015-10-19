@@ -21,6 +21,7 @@ var configuration = {
     },
 
     vendorsToBundleSeperately: [
+        'es6-shim',
         'reflect-metadata',
         'zone.js',
         'angular2/angular2'
