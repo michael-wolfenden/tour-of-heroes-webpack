@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Angular 2 Quickstart</title>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body>
+<my-app></my-app>
+{% if (o.htmlWebpackPlugin.options.devServer) { %}<script src="{%=o.htmlWebpackPlugin.options.devServer%}"></script> {% } %}
+{% if (o.htmlWebpackPlugin.options.chunkManifest) { %}<script>{%#o.htmlWebpackPlugin.options.chunkManifest%}</script> {% } %}
+</body>
+</html>
